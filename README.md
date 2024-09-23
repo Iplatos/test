@@ -4,14 +4,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+1. Склонируйте репозиторий: `git clone https://github.com/Iplatos/test.git`
+2. Установите зависимости: `npm install`
+3. Настройте переменные окружения в `.env` файле: NEXT_PUBLIC_GRAPHQL_URL=https://api.escuelajs.co/graphql
+4. Запустите приложение: `npm run dev`
+
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
+
 # or
+
 bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -38,3 +49,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
